@@ -1,0 +1,915 @@
+[
+  {
+    "file": "Dockerfile",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "MODEL.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "CONTRIBUTING.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": ".dockerignore",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "pyproject.toml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "README.md",
+    "dependencies": [
+      "IPython.display",
+      "magenta_rt",
+      "audio",
+      "display"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "setup.py",
+    "dependencies": [
+      "setuptools"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "LICENSE",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": ".gitignore",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "test/spectrostream_end2end_test.py",
+    "dependencies": [
+      "numpy",
+      "asset",
+      "tensorflow",
+      "magenta_rt",
+      "audio",
+      "absl.testing",
+      "absltest",
+      "spectrostream"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "test/musiccoca_end2end_test.py",
+    "dependencies": [
+      "numpy",
+      "asset",
+      "tensorflow",
+      "magenta_rt",
+      "audio",
+      "absl.testing",
+      "musiccoca",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "test/magenta_rt_end2end_test.py",
+    "dependencies": [
+      "system",
+      "audio",
+      "magenta_rt",
+      "absl.testing",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "magenta_rt/spectrostream.py",
+    "dependencies": [
+      "numpy",
+      "asset",
+      "tensorflow",
+      "dataclasses",
+      "audio",
+      "TypeAlias",
+      "magenta_rt",
+      "utils",
+      "typing_extensions",
+      "jax",
+      "abc",
+      ".",
+      "functools",
+      "tf2jax",
+      "Any",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "magenta_rt/path.py",
+    "dependencies": [
+      "pathlib"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "magenta_rt/utils_test.py",
+    "dependencies": [
+      "numpy",
+      "utils",
+      "absl.testing",
+      "warnings",
+      "absltest",
+      "."
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "magenta_rt/system_test.py",
+    "dependencies": [
+      "numpy",
+      "system",
+      "audio",
+      "absl.testing",
+      "Optional",
+      "musiccoca",
+      "absltest",
+      ".",
+      "spectrostream",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "magenta_rt/musiccoca_test.py",
+    "dependencies": [
+      "numpy",
+      "audio",
+      "absl.testing",
+      "musiccoca",
+      "absltest",
+      "."
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "magenta_rt/fetch_asset.py",
+    "dependencies": [
+      "logging",
+      "asset",
+      "flags",
+      ".",
+      "app",
+      "absl"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "magenta_rt/audio_test.py",
+    "dependencies": [
+      "numpy",
+      "io",
+      "audio",
+      "absl.testing",
+      "absltest",
+      "tempfile",
+      "."
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "magenta_rt/spectrostream_test.py",
+    "dependencies": [
+      "numpy",
+      "audio",
+      "absl.testing",
+      "absltest",
+      ".",
+      "spectrostream"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "magenta_rt/utils.py",
+    "dependencies": [
+      "logging",
+      "numpy",
+      "tensorflow",
+      "pathlib",
+      "warnings",
+      "functools",
+      "Any",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "magenta_rt/system.py",
+    "dependencies": [
+      "numpy",
+      "asset",
+      "jax",
+      "model",
+      "musiccoca",
+      "spectrostream",
+      "typing",
+      "abc",
+      "dataclasses",
+      "typing_extensions",
+      ".",
+      "functools",
+      "hashlib",
+      "TypeAlias",
+      "audio",
+      "Callable",
+      "utils",
+      ".depthformer",
+      "warnings"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "magenta_rt/server.py",
+    "dependencies": [
+      "numpy",
+      "web",
+      "librosa",
+      "typing",
+      "logging",
+      "mimetypes",
+      "time",
+      "app",
+      "absl",
+      "Any",
+      "struct",
+      "json",
+      "enum",
+      "flags",
+      ".",
+      "functools",
+      "system",
+      "asyncio",
+      "os",
+      "aiohttp",
+      "path"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "magenta_rt/musiccoca.py",
+    "dependencies": [
+      "numpy",
+      "asset",
+      "hashlib",
+      "dataclasses",
+      "tensorflow",
+      "TypeAlias",
+      "audio",
+      "utils",
+      "magenta_rt",
+      "typing_extensions",
+      "musiccoca",
+      "abc",
+      ".",
+      "functools",
+      "sentencepiece",
+      "Any",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "magenta_rt/asset.py",
+    "dependencies": [
+      "futures",
+      "requests",
+      "typing",
+      "logging",
+      "NamedTuple",
+      "absl",
+      "tqdm",
+      "storage",
+      "credentials",
+      "pathlib",
+      "google.auth",
+      "google.cloud",
+      ".",
+      "functools",
+      "shutil",
+      "os",
+      "concurrent",
+      "huggingface_hub",
+      "path",
+      "huggingface_hub.utils"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "magenta_rt/audio.py",
+    "dependencies": [
+      "numpy",
+      "resampy",
+      "librosa",
+      "BinaryIO",
+      "functools",
+      "soundfile",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "magenta_rt/asset_test.py",
+    "dependencies": [
+      "asset",
+      "pathlib",
+      "absl.testing",
+      "absltest",
+      "tempfile",
+      "."
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "magenta_rt/generate.py",
+    "dependencies": [
+      "numpy",
+      "system",
+      "audio",
+      "pathlib",
+      "flags",
+      ".",
+      "app",
+      "absl",
+      "tqdm"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "magenta_rt/depthformer/model.py",
+    "dependencies": [
+      "numpy",
+      "sys",
+      "t5x.partitioning",
+      "typing",
+      "pathlib",
+      "jax",
+      "t5x.models",
+      "..",
+      "path",
+      "gin",
+      "t5x.interactive_model",
+      "Any",
+      "jax.numpy",
+      "importlib",
+      "t5x"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "magenta_rt/depthformer/modules_test.py",
+    "dependencies": [
+      "jax",
+      "embedding",
+      "t5_architecture_test_utils",
+      "t5_architecture",
+      "seqio",
+      "jax.numpy",
+      "random",
+      "flax.linen",
+      "chex",
+      "absl.testing",
+      "flaxformer.components",
+      "layer_norm",
+      "decoding",
+      ".",
+      "modules",
+      "adafactor",
+      "parameterized",
+      "dense",
+      "absltest",
+      "flaxformer.architectures.t5",
+      "models",
+      "t5x"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "magenta_rt/depthformer/decode_test.py",
+    "dependencies": [
+      "numpy",
+      "absl.testing",
+      "absltest",
+      ".",
+      "decode"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "magenta_rt/depthformer/decode.py",
+    "dependencies": [
+      "typing_extensions",
+      "jax",
+      "t5x.models",
+      "Mapping",
+      "t5x.decoding",
+      "gin",
+      "jax.numpy",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "magenta_rt/depthformer/modules.py",
+    "dependencies": [
+      "chex",
+      "jax.numpy",
+      "types",
+      "jax",
+      "t5_architecture",
+      "flaxformer.architectures.t5",
+      "linen",
+      "flaxformer",
+      "Any",
+      "flax",
+      "transformer_common",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "magenta_rt/depthformer/configs/t5_1_1_base.gin",
+    "dependencies": [
+      "adafactor",
+      "seqio",
+      "dynamic_registration",
+      "models",
+      "__gin__",
+      "t5x"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "magenta_rt/depthformer/configs/posembed.gin",
+    "dependencies": [
+      "flaxformer.components",
+      "embedding",
+      "t5_architecture",
+      "flaxformer.architectures.t5",
+      "dynamic_registration",
+      "__gin__"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "magenta_rt/depthformer/configs/depthformer.gin",
+    "dependencies": [
+      "flaxformer.components.attention",
+      "relative_position_biases",
+      "flaxformer.components",
+      "dense_attention",
+      "dense",
+      "t5_architecture",
+      "layer_norm",
+      "magenta_rt.depthformer",
+      "flaxformer.architectures.t5",
+      "linen",
+      "modules",
+      "dynamic_registration",
+      "__gin__",
+      "flax"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "magenta_rt/depthformer/configs/mrt_merged_large.gin",
+    "dependencies": [
+      "relative_position_biases",
+      "model",
+      "embedding",
+      "dense_attention",
+      "t5_architecture",
+      "seqio",
+      "__gin__",
+      "flax",
+      "partitioning",
+      "flaxformer.components",
+      "layer_norm",
+      "decoding",
+      "decode",
+      "linen",
+      "modules",
+      "flaxformer.components.attention",
+      "adafactor",
+      "utils",
+      "dense",
+      "magenta_rt.depthformer",
+      "flaxformer.architectures.t5",
+      "dynamic_registration",
+      "models",
+      "t5x"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "magenta_rt/depthformer/configs/size_base.gin",
+    "dependencies": [
+      "utils",
+      "flaxformer.components",
+      "model",
+      "embedding",
+      "magenta_rt.depthformer",
+      "t5_architecture",
+      "decoding",
+      "decode",
+      "flaxformer.architectures.t5",
+      "seqio",
+      "dynamic_registration",
+      "__gin__",
+      "partitioning",
+      "t5x"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "magenta_rt/depthformer/configs/magenta_rt.gin",
+    "dependencies": [
+      "seqio",
+      "model",
+      "magenta_rt.depthformer"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "magenta_rt/depthformer/configs/t5_1_1_flaxformer.gin",
+    "dependencies": [
+      "flaxformer.components.attention",
+      "relative_position_biases",
+      "flaxformer.components",
+      "embedding",
+      "dense_attention",
+      "dense",
+      "t5_architecture",
+      "layer_norm",
+      "flaxformer.architectures.t5",
+      "linen",
+      "dynamic_registration",
+      "__gin__",
+      "flax"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "magenta_rt/depthformer/configs/mrt_merged_base.gin",
+    "dependencies": [
+      "relative_position_biases",
+      "model",
+      "embedding",
+      "dense_attention",
+      "t5_architecture",
+      "seqio",
+      "__gin__",
+      "flax",
+      "partitioning",
+      "flaxformer.components",
+      "layer_norm",
+      "decoding",
+      "decode",
+      "linen",
+      "modules",
+      "flaxformer.components.attention",
+      "adafactor",
+      "utils",
+      "dense",
+      "magenta_rt.depthformer",
+      "flaxformer.architectures.t5",
+      "dynamic_registration",
+      "models",
+      "t5x"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "magenta_rt/depthformer/configs/size_large.gin",
+    "dependencies": [
+      "__gin__",
+      "partitioning",
+      "dynamic_registration",
+      "t5x"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "magenta_rt/finetune/data.py",
+    "dependencies": [
+      "numpy",
+      "tensorflow",
+      "typing",
+      "audio",
+      "Iterator",
+      "musiccoca",
+      "..",
+      "spectrostream",
+      "random"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "magenta_rt/finetune/tasks.py",
+    "dependencies": [
+      "tensorflow",
+      "system",
+      "musiccoca",
+      "..",
+      "Mapping",
+      "seqio",
+      "functools",
+      "collections.abc"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "magenta_rt/finetune/finetuner.py",
+    "dependencies": [
+      "asset",
+      "pathlib",
+      "os",
+      "model",
+      "..depthformer",
+      "..",
+      "tqdm"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "magenta_rt/colab/prompt_types.py",
+    "dependencies": [
+      "numpy",
+      "dataclasses"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "magenta_rt/colab/widgets.py",
+    "dependencies": [
+      "numpy",
+      "typing",
+      "uuid",
+      "Callable",
+      "utils",
+      "resampy",
+      "base64",
+      "ipywidgets",
+      ".",
+      "concurrent.futures",
+      "functools",
+      "importlib",
+      "prompt_types"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "magenta_rt/colab/utils.py",
+    "dependencies": [
+      "numpy",
+      "typing",
+      "pathlib",
+      "os",
+      "base64",
+      "ipywidgets",
+      "functools",
+      "IPython.display",
+      "Any",
+      "json",
+      "importlib"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "magenta_rt/colab/static/html/ui.html",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "magenta_rt/colab/static/js/upload_audio.js",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "magenta_rt/colab/static/js/streamer.js",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "magenta_rt/colab/static/js/ring_buffer_node.js",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "magenta_rt/colab/static/js/ring_buffer.js",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "demos/helloworld/index.html",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "notebooks/Magenta_RT_Finetune.ipynb",
+    "dependencies": [
+      "numpy",
+      "asset",
+      "pyplot",
+      "sklearn.cluster",
+      "widgets",
+      "finetuner",
+      "google.colab",
+      "KMeans",
+      "typing",
+      "prompt_types",
+      "magenta_rt.finetune",
+      "abc",
+      "magenta_rt.colab",
+      "seqio",
+      "IPython.display",
+      "tqdm",
+      "display",
+      "tensorflow",
+      "clu.data",
+      "drive",
+      "pathlib",
+      "tensorflow.data",
+      "tasks",
+      "tqdm.notebook",
+      "Sequence",
+      "concurrent.futures",
+      "functools",
+      "system",
+      "audio",
+      "matplotlib",
+      "magenta_rt",
+      "utils",
+      "tensorflow.io",
+      "os",
+      "tensorflow_text",
+      "data",
+      "ipywidgets",
+      "datetime",
+      "t5x"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "notebooks/Magenta_RT_Audio_Injection.ipynb",
+    "dependencies": [
+      "numpy",
+      "jax",
+      "librosa",
+      "musiccoca",
+      "widgets",
+      "google.colab",
+      "spectrostream",
+      "typing",
+      "prompt_types",
+      "tempfile",
+      "IPython.display",
+      "dataclasses",
+      "files",
+      "concurrent.futures",
+      "functools",
+      "system",
+      "audio",
+      "magenta_rt",
+      "utils",
+      "os",
+      "Optional",
+      "tensorflow_text",
+      "ipywidgets",
+      "warnings",
+      "magenta_rt.colab"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "notebooks/Magenta_RT_Demo.ipynb",
+    "dependencies": [
+      "numpy",
+      "types",
+      "google.genai",
+      "widgets",
+      "threading",
+      "typing",
+      "prompt_types",
+      "genai",
+      "abc",
+      "IPython.display",
+      "Sequence",
+      "concurrent.futures",
+      "functools",
+      "system",
+      "io",
+      "asyncio",
+      "audio",
+      "utils",
+      "magenta_rt",
+      "traceback",
+      "tensorflow_text",
+      "google",
+      "ipywidgets",
+      "for",
+      "queue",
+      "soundfile",
+      "magenta_rt.colab"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "patch/seqio_vocabularies.py.patch",
+    "dependencies": [
+      "logging",
+      "tensorflow_text",
+      "sentencepiece_model_pb2",
+      "sentencepiece",
+      "absl",
+      "tensorflow.compat.v2"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "patch/t5x_partitioning.py.patch",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "patch/t5x_setup.py.patch",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  }
+]
